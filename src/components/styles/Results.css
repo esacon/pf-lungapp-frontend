@@ -171,6 +171,14 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.spin-center {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
 @media (max-width: 768px) {
   .graph__section {
     flex-direction: column;
@@ -197,11 +205,4 @@
   .bpm__section {
     flex-direction: column;
   }
-}
-
-.spin-center {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

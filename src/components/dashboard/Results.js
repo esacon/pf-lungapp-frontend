@@ -94,8 +94,8 @@ function Results() {
                 {procesando ? <span>Procesando...</span> : <span>{result.audio_name}</span>}
               </div>
               {procesando ? 
-              <div className="spin-center">
-                <ReactLoading type='spin' color='#000000' height={'10%'} width={'10%'} />
+              <div className="results__overview">
+                <ReactLoading type='spin' color='#000000' height={'10%'} width={'10%'} className="spin-center"/>
               </div>   :
               <div className="results__overview">
                 <div className="bpm__section">
